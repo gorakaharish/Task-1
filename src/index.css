@@ -1,0 +1,883 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    background-color: yellow;
+    height: 138vh;
+    padding: 0px !important;
+  }
+
+  .heading_top{
+    font-size: 2rem;
+    color: #b4493a;
+    font-weight: 700;
+    letter-spacing: 0px;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .form-control_1 {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+    margin-right: 8px;
+  }
+
+  
+  .login-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  
+  .forgot-password a {
+    color: #28a745;
+    text-decoration: none;
+  }
+  .forgot-password i {
+    color: #28a745;
+    font-size: 0.9rem;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+
+  .select-no-icon {
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    width: 60px; 
+    outline: none;
+    border: 1px solid #ccc;
+  }
+
+  .container-fluid_2{
+    background-image: url("./assets/img.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .container_fluid_3{
+    background-color: #c23d0d;
+    height: 7vh;
+  }
+
+  .container_fluid_4{
+    background-color: #28a745;
+    height: 5vh;
+  }
+
+  ul{
+    font-weight: 600;
+    font-style: 0.7rem !important;
+  }
+
+.input_form{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input_form::placeholder{
+    padding: 5px;
+    font-size: 0.9rem;
+    color: #929090;
+}
+
+.form_heading_2{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    color: lightseagreen;
+}
+
+.form_heading_2 span{
+    color: #c23d0d;
+}
+
+.heading_form_1{
+    font-size: 1.5rem;
+    color: rgb(211, 105, 105);
+    text-align: center;
+}
+
+.captch{
+    font-size: 1.5rem;
+    color: navy;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+label i{
+    font-size: 0.4rem;
+}
+
+label{
+    font-size: 1rem;
+    color: #666464;
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+     .container-fluid {
+        background-color: yellow;
+        height: 130vh;
+        padding: 0px !important;
+      }
+    
+      .heading_top{
+        font-size: 1.8rem;
+        color: #b4493a;
+        font-weight: 700;
+        letter-spacing: 0px;
+      }
+      
+      .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      .form-control_1 {
+        padding: 5px;
+        font-size: 13px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 170px;
+        outline: none;
+        margin-right: 5px;
+      }
+    
+      
+      .login-button {
+        padding: 5px 10px;
+        font-size: 16px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .forgot-password {
+        margin-top: 5px;
+        margin-left: 50px;
+      }
+      
+      .forgot-password a {
+        color: #28a745;
+        text-decoration: none;
+      }
+      .forgot-password i {
+        color: #28a745;
+        font-size: 0.9rem;
+      }
+      
+      .forgot-password a:hover {
+        text-decoration: underline;
+      }
+    
+      .select-no-icon {
+        appearance: none;
+        -webkit-appearance: none; 
+        -moz-appearance: none; 
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        width: 60px; 
+        outline: none;
+        border: 1px solid #ccc;
+      }
+    
+      .container-fluid_2{
+        background-image: url("./assets/img.jpg");
+        height: 90vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    
+      .container_fluid_3{
+        background-color: #c23d0d;
+        height: 7vh;
+      }
+    
+      .container_fluid_4{
+        background-color: #28a745;
+        height: 5vh;
+      }
+    
+      ul{
+        font-weight: 400;
+        font-style: 0.5rem !important;
+      }
+    
+    .input_form{
+        width: 300px;
+        height: 30px;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .input_form::placeholder{
+        padding: 5px;
+        font-size: 0.9rem;
+        color: #929090;
+    }
+    
+    .form_heading_2{
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 700;
+        color: lightseagreen;
+    }
+    
+    .form_heading_2 span{
+        color: #c23d0d;
+    }
+    
+    .heading_form_1{
+        font-size: 1.5rem;
+        color: rgb(211, 105, 105);
+        text-align: center;
+    }
+    
+    .captch{
+        font-size: 1.5rem;
+        color: navy;
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+    label i{
+        font-size: 0.4rem;
+    }
+    
+    label{
+        font-size: 1rem;
+        color: #666464;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .container-fluid {
+       background-color: yellow;
+       height: 160vh;
+       padding: 0px !important;
+     }
+   
+     .heading_top{
+       font-size: 1.5rem;
+       color: #b4493a;
+       font-weight: 700;
+       letter-spacing: 0px;
+     }
+     
+     .login-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+     }
+     
+     .form-control_1 {
+       /* padding: 5px; */
+       font-size: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       width: 110px;
+       outline: none;
+       margin-right: 5px;
+     }
+   
+     
+     .login-button {
+       padding: 5px 10px;
+       font-size: 16px;
+       background-color: #28a745;
+       color: white;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     .forgot-password {
+       margin-top: 5px;
+       margin-left: 50px;
+     }
+     
+     .forgot-password a {
+       color: #28a745;
+       text-decoration: none;
+     }
+     .forgot-password i {
+       color: #28a745;
+       font-size: 0.9rem;
+     }
+     
+     .forgot-password a:hover {
+       text-decoration: underline;
+     }
+   
+     .select-no-icon {
+       appearance: none;
+       -webkit-appearance: none; 
+       -moz-appearance: none; 
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: white;
+       width: 60px; 
+       outline: none;
+       border: 1px solid #ccc;
+     }
+   
+     .container-fluid_2{
+       background-image: url("./assets/img.jpg");
+       height: 90vh;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+     }
+   
+     .container_fluid_3{
+       background-color: #c23d0d;
+       height: 7vh;
+     }
+   
+     .container_fluid_4{
+       background-color: #28a745;
+       height: 5vh;
+     }
+   
+     ul{
+       font-weight: 400;
+       font-style: 0.5rem !important;
+     }
+   
+   .input_form{
+       width: 300px;
+       height: 30px;
+       outline: none;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+   }
+   
+   .input_form::placeholder{
+       padding: 5px;
+       font-size: 0.9rem;
+       color: #929090;
+   }
+   
+   .form_heading_2{
+       font-size: 1.2rem;
+       font-style: italic;
+       font-weight: 700;
+       color: lightseagreen;
+   }
+   
+   .form_heading_2 span{
+       color: #c23d0d;
+   }
+   
+   .heading_form_1{
+       font-size: 1.5rem;
+       color: rgb(211, 105, 105);
+       text-align: center;
+   }
+   
+   .captch{
+       font-size: 1.5rem;
+       color: navy;
+       font-weight: 700;
+       letter-spacing: 5px;
+       text-align: center;
+   }
+   
+   label i{
+       font-size: 0.4rem;
+   }
+   
+   label{
+       font-size: 1rem;
+       color: #666464;
+   }
+}
+
+@media (max-width:425px) {
+    .container-fluid {
+       background-color: yellow;
+       height: 160vh;
+       padding: 0px !important;
+     }
+   
+     .heading_top{
+       font-size: 1.5rem;
+       color: #b4493a;
+       font-weight: 700;
+       letter-spacing: 0px;
+     }
+     
+     .login-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+     }
+     
+     .form-control_1 {
+       /* padding: 5px; */
+       font-size: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       width: 110px;
+       outline: none;
+       margin-right: 5px;
+     }
+   
+     
+     .login-button {
+       padding: 5px 10px;
+       font-size: 16px;
+       background-color: #28a745;
+       color: white;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     .forgot-password {
+       margin-top: 5px;
+       margin-left: 50px;
+     }
+     
+     .forgot-password a {
+       color: #28a745;
+       text-decoration: none;
+     }
+     .forgot-password i {
+       color: #28a745;
+       font-size: 0.9rem;
+     }
+     
+     .forgot-password a:hover {
+       text-decoration: underline;
+     }
+   
+     .select-no-icon {
+       appearance: none;
+       -webkit-appearance: none; 
+       -moz-appearance: none; 
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: white;
+       width: 60px; 
+       outline: none;
+       border: 1px solid #ccc;
+     }
+   
+     .container-fluid_2{
+       background-image: url("./assets/img.jpg");
+       height: 90vh;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+     }
+   
+     .container_fluid_3{
+       background-color: #c23d0d;
+       height: 10vh;
+       width: 100%;
+     }
+   
+     .container_fluid_4{
+       background-color: #28a745;
+       height: 5vh;
+     }
+   
+     ul{
+       font-weight: 400;
+       font-style: 0.rem !important;
+     }
+   
+   .input_form{
+       width: 250px;
+       height: 30px;
+       outline: none;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+   }
+   
+   .input_form::placeholder{
+       padding: 5px;
+       font-size: 0.9rem;
+       color: #929090;
+   }
+   
+   .form_heading_2{
+       font-size: 1.2rem;
+       font-style: italic;
+       font-weight: 700;
+       color: lightseagreen;
+   }
+   
+   .form_heading_2 span{
+       color: #c23d0d;
+   }
+   
+   .heading_form_1{
+       font-size: 1.2rem;
+       color: rgb(211, 105, 105);
+       text-align: center;
+   }
+   
+   .captch{
+       font-size: 1.5rem;
+       color: navy;
+       font-weight: 700;
+       letter-spacing: 5px;
+       text-align: center;
+   }
+   
+   label i{
+       font-size: 0.4rem;
+   }
+   
+   label{
+       font-size: 1rem;
+       color: #666464;
+   }
+}
+
+@media (max-width:375px) {
+    .container-fluid {
+       background-color: yellow;
+       height: 160vh;
+       padding: 0px !important;
+     }
+   
+     .heading_top{
+       font-size: 1rem;
+       color: #b4493a;
+       font-weight: 700;
+       letter-spacing: 0px;
+     }
+     
+     .login-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+     }
+     
+     .form-control_1 {
+       /* padding: 5px; */
+       font-size: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       width: 110px;
+       outline: none;
+       margin-right: 5px;
+     }
+   
+     
+     .login-button {
+       padding: 5px 10px;
+       font-size: 16px;
+       background-color: #28a745;
+       color: white;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     .forgot-password {
+       margin-top: 5px;
+       margin-left: 50px;
+     }
+     
+     .forgot-password a {
+       color: #28a745;
+       text-decoration: none;
+     }
+     .forgot-password i {
+       color: #28a745;
+       font-size: 0.9rem;
+     }
+     
+     .forgot-password a:hover {
+       text-decoration: underline;
+     }
+   
+     .select-no-icon {
+       appearance: none;
+       -webkit-appearance: none; 
+       -moz-appearance: none; 
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: white;
+       width: 60px; 
+       outline: none;
+       border: 1px solid #ccc;
+     }
+   
+     .container-fluid_2{
+       background-image: url("./assets/img.jpg");
+       height: 90vh;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+     }
+   
+     .container_fluid_3{
+       background-color: #c23d0d;
+       height: 10vh;
+       width: 100%;
+     }
+   
+     .container_fluid_4{
+       background-color: #28a745;
+       height: 5vh;
+     }
+   
+     ul{
+       font-weight: 400;
+       font-style: 0.rem !important;
+     }
+   
+   .input_form{
+       width: 220px;
+       height: 30px;
+       outline: none;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+   }
+   
+   .input_form::placeholder{
+       padding: 5px;
+       font-size: 0.9rem;
+       color: #929090;
+   }
+   
+   .form_heading_2{
+       font-size: 1.1rem;
+       font-style: italic;
+       font-weight: 700;
+       color: lightseagreen;
+   }
+   
+   .form_heading_2 span{
+       color: #c23d0d;
+   }
+   
+   .heading_form_1{
+       font-size: 1rem;
+       color: rgb(211, 105, 105);
+       text-align: center;
+   }
+   
+   .captch{
+       font-size: 1rem;
+       color: navy;
+       font-weight: 700;
+       letter-spacing: 5px;
+       text-align: center;
+   }
+   
+   label i{
+       font-size: 0.4rem;
+   }
+   
+   label{
+       font-size: 0.9rem;
+       color: #666464;
+   }
+}
+
+@media (max-width:320px) {
+    .container-fluid {
+       background-color: yellow;
+       height: 160vh;
+       padding: 0px !important;
+     }
+   
+     .heading_top{
+       font-size: 1rem;
+       color: #b4493a;
+       font-weight: 700;
+       letter-spacing: 0px;
+     }
+     
+     .login-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 20px;
+     }
+     
+     .form-control_1 {
+       /* padding: 5px; */
+       font-size: 10px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       width: 110px;
+       outline: none;
+       margin-right: 5px;
+     }
+   
+     
+     .login-button {
+       padding: 5px 5px;
+       font-size: 15px;
+       background-color: #28a745;
+       color: white;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     .forgot-password {
+       margin-top: 5px;
+       margin-left: 50px;
+     }
+     
+     .forgot-password a {
+       color: #28a745;
+       text-decoration: none;
+     }
+     .forgot-password i {
+       color: #28a745;
+       font-size: 0.9rem;
+     }
+     
+     .forgot-password a:hover {
+       text-decoration: underline;
+     }
+   
+     .select-no-icon {
+       appearance: none;
+       -webkit-appearance: none; 
+       -moz-appearance: none; 
+       padding: 10px;
+       font-size: 16px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       background-color: white;
+       width: 60px; 
+       outline: none;
+       border: 1px solid #ccc;
+     }
+   
+     .container-fluid_2{
+       background-image: url("./assets/img.jpg");
+       height: 90vh;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+     }
+   
+     .container_fluid_3{
+       background-color: #c23d0d;
+       height: 7vh;
+       width: 100%;
+     }
+   
+     .container_fluid_4{
+       background-color: #28a745;
+       height: 5vh;
+     }
+   
+     ul{
+       font-weight: 400;
+       font-size: 0.7rem !important;
+     }
+   
+   .input_form{
+       width: 200px;
+       height: 30px;
+       outline: none;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+   }
+   
+   .input_form::placeholder{
+       padding: 5px;
+       font-size: 0.9rem;
+       color: #929090;
+   }
+   
+   .form_heading_2{
+       font-size: 1.1rem;
+       font-style: italic;
+       font-weight: 700;
+       color: lightseagreen;
+   }
+   
+   .form_heading_2 span{
+       color: #c23d0d;
+   }
+   
+   .heading_form_1{
+       font-size: 1rem;
+       color: rgb(211, 105, 105);
+       text-align: center;
+   }
+   
+   .captch{
+       font-size: 1rem;
+       color: navy;
+       font-weight: 700;
+       letter-spacing: 5px;
+       text-align: center;
+   }
+   
+   label i{
+       font-size: 0.4rem;
+   }
+   
+   label{
+       font-size: 0.9rem;
+       color: #666464;
+   }
+}
